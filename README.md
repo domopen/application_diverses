@@ -34,7 +34,7 @@ MàJ prévues :
    
    - version web
    - flat taxe, IFI, frais réels, etc... (développement et optimisation de **"Déductions et niches fiscales"**)
-   - correction et ajustements de l'estimation du Impôt total estimé
+   - correction et ajustements de l'estimation du **"Impôt total estimé"**
 
 
 ---
