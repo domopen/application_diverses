@@ -24,7 +24,7 @@ Dépôt officiel domOpen lab
 <details closed>
 <summary>Installation sous Windows 10-11</summary>
 
-#### 🧰 1. Avoir d'installé Python 3.10+
+#### 🧰 1. Installation de Python 3.10+
 
 - Appuyez sur **Win + X** et choisissez **Terminal (administrateur)**.
 - Tapez cette commande pour télécharger et installer Python :
