@@ -16,7 +16,7 @@ Dépôt officiel domOpen lab
    - Formulaires et codes :
       - Formulaire 2086 3N
 
-   CSV de plateformes :
+   - CSV de plateformes :
       - Bitpanda
 
 - 📥 Charger un fichier CSV (testé avec : bitpanda)
