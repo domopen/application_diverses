@@ -22,7 +22,7 @@ Dépôt officiel domOpen lab
 ---
 
 <details closed>
-<<summary>Installation sous Windows 10-11</summary>
+<summary>Installation sous Windows 10-11</summary>
 
 #### 🧰 1. Prérequis
 
