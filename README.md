@@ -28,8 +28,8 @@ Testé pour :
 - 📊 Simuler votre impôt via un **barème progressif modifiable**
 - 📤 Exporter les résultats au format **CSV français**
 - Prochainement : 
-   - flat taxe, IFI, frais réels, etc... (segmentarisation de la section **"Déductions et niches fiscales"**)
-   - version web via https://dic3000.hettbtc.com
+   - flat taxe, IFI, frais réels, etc... (optimisation **"Déductions et niches fiscales"**)
+   - accessible via @web
 
 ---
 
