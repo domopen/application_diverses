@@ -6,8 +6,8 @@ Dépôt officiel domOpen lab
 
 <details closed>
 
-
 <summary>📊 DI-3000 — Calculateur de plus-values crypto</summary>
+
 
 **DI-3000** est une interface locale pour :
 
@@ -19,6 +19,7 @@ Dépôt officiel domOpen lab
 - 👨‍💻 Accéder au **code source** depuis l’interface
 
 <details closed>
+<<summary>Windows</summary>
 ### 🚀 Lancer l’application DI-3000 sous Windows
 
 #### 🧰 1. Prérequis
