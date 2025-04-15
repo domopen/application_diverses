@@ -18,6 +18,7 @@ Dépôt officiel domOpen lab
 - 📤 Exporter les résultats au format **CSV français**
 - 👨‍💻 Accéder au **code source** depuis l’interface
 
+<details closed>
 ### 🚀 Lancer l’application DI-3000 sous Windows
 
 #### 🧰 1. Prérequis
@@ -66,4 +67,5 @@ Cela ouvre automatiquement une page dans votre navigateur à l’adresse `http:/
 
 Projets open source — librement modifiable, redistribuable et utilisable.
 
+</details>
 </details>
