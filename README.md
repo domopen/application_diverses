@@ -29,7 +29,7 @@ Testé pour :
 - 📤 Exporter les résultats au format **CSV français**
 - Prochainement : 
    - flat taxe, IFI, frais réels, etc... (optimisation **"Déductions et niches fiscales"**)
-   - accessible via @web
+   - version web accessible à toutes et à tous
 
 ---
 
