@@ -4,7 +4,7 @@ Ce dépôt contient plusieurs outils fiscaux open source, tous exécutables **en
 
 ---
 
-<details open>
+<details closed>
 <summary>📊 DI-3000 — Calculateur de plus-values crypto</summary>
 
 **DI-3000** est une interface locale pour :
@@ -57,26 +57,6 @@ streamlit run declarateur-d-impot-3000.py
 ```
 
 Cela ouvre automatiquement une page dans votre navigateur à l’adresse `http://localhost:8501`.
-
-</details>
-
----
-
-<details>
-<summary>🔐 Wallet Tracker — Suivi de portefeuilles crypto</summary>
-
-> *À venir*  
-> Suivi consolidé des soldes multi-wallets, historique de valorisation, export fiscal, etc.
-
-</details>
-
----
-
-<details>
-<summary>📈 Fiscal Helper — Analyse fiscale complète</summary>
-
-> *À venir*  
-> Centralisation des revenus (crypto, actions, dividendes), calculs de tranches et déclaration automatisée.
 
 </details>
 
