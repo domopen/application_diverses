@@ -40,7 +40,7 @@ Pendant l'installation, cochez ✅ **"Add Python to PATH"**
 
 - Cliquez avec le **bouton droit** sur le dossier contenant `declarateur-d-impot-3000.py`  
 - Choisissez **"Copier comme chemin d’accès"**
-- Ouvrez le **Terminal (administrateur)**, tapez cd suivi d'un espace et collez votre chemin:
+- Ouvrez le **Terminal (administrateur)**, tapez cd suivi d'un espace et collez votre chemin :
 
 ```bash
 cd "C:\Users\votre_nom\Chemin\vers\le\dossier"
