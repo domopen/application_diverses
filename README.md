@@ -40,7 +40,7 @@ MàJ prévues :
 ---
 
 <details closed>
-<summary>Installation sous Windows 10-11</summary>
+<summary>Installation sous Windows 11</summary>
 
 #### 🧰 1. Installation de Python 3.10+
 
