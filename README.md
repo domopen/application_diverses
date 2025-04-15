@@ -10,7 +10,7 @@
 Assurez-vous d'avoir **Python 3.10 ou plus récent** installé.
 
 #### 👉 Pour installer Python :
-1. Faites **Win + X** puis sélectionnez **Terminal (admin)**.
+1. Faites **Win + X** puis sélectionnez **Terminal (administrateur)**.
 2. Tapez la commande suivante pour télécharger l'installeur officiel :
    ```powershell
    Start-Process "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
