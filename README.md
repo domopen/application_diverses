@@ -33,7 +33,7 @@ Tester et approuver pour :
 MàJ prévues : 
    
    - version web
-   - Développement, optimisations, ajouts prévus pour la section **"Déductions et niches fiscales"**)
+   - développement et optimisations ainsi que des ajouts prévus pour la section **"Déductions et niches fiscales"**
    - correction et ajustement de l'estimation du **"Impôt total estimé"**
 
 
