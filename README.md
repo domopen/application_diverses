@@ -25,7 +25,7 @@ Tester et approuver pour :
 - 📥 Charger un fichier CSV issu d'une plateforme d'échange cryptos
 - 🔁 Appliquer la méthode **FIFO** pour les ventes de crypto
 - 🧾 Générer automatiquement les lignes fiscales requises à la déclaration
-- 📊 Simuler votre impôt via un **barème progressif modifiable**
+- 📊 Simuler votre impôt via un **barème progressif modifiable pour ne pas dépendre d'une éventuelle mise à jour**
 - 📤 Exporter les résultats au format **CSV français**
 
 ---
