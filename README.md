@@ -6,11 +6,18 @@ Dépôt officiel domOpen lab
 
 <details closed>
 
-<summary>📊 DI-3000 — Déclarer vos plus-values crypto selon le barème de l'impôt (Formulaire 2086 - 3N)</summary>
+<summary>📊 DI-3000 — Déclarer vos plus-values crypto selon le barème de l'impôt</summary>
 
 ---
 
 **DI-3000** est une interface locale pour :
+
+- Testé avec : 
+   - Formulaires et codes :
+      - Formulaire 2086 3N
+
+   CSV de plateformes :
+      - Bitpanda
 
 - 📥 Charger un fichier CSV (testé avec : bitpanda)
 - 🔁 Appliquer la méthode **FIFO** pour les ventes de crypto
