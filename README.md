@@ -70,9 +70,14 @@ Cela ouvre automatiquement une page dans votre navigateur à l’adresse `http:/
 
 ---
 
+</details>
+
+---
+
 ## 📜 Licence
 
 Projets open source — librement modifiable, redistribuable et utilisable.
 
-</details>
+---
+
 </details>
