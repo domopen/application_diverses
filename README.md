@@ -5,8 +5,7 @@ Dépôt officiel domOpen lab
 ---
 
 <details closed>
-  
----
+
 
 <summary>📊 DI-3000 — Calculateur de plus-values crypto</summary>
 
