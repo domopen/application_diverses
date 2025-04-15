@@ -5,11 +5,12 @@ Ce dépôt contient plusieurs outils fiscaux open source, tous exécutables **en
 ---
 
 <details closed>
+
 <summary>📊 DI-3000 — Calculateur de plus-values crypto</summary>
 
 **DI-3000** est une interface locale pour :
 
-- 📥 Charger un fichier CSV (Bitpanda, Binance, etc.)
+- 📥 Charger un fichier CSV (testé avec : bitpanda)
 - 🔁 Appliquer la méthode **FIFO** pour les ventes de crypto
 - 🧾 Générer automatiquement les lignes fiscales du **formulaire 2086 (3N)**
 - 📊 Simuler votre impôt via un **barème progressif modifiable**
