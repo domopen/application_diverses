@@ -1,6 +1,6 @@
 # 📚 Applications disponibles
 
-Ce dépôt contient plusieurs outils fiscaux open source, tous exécutables **en local**.
+Dépôt officiel 'domOpen lab'
 
 ---
 
