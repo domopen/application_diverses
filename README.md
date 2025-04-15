@@ -1,4 +1,4 @@
-Dépôt officiel domOpen lab
+Dépôt officiel domOpen
 
 # 📚 Applications disponibles
 
