@@ -10,17 +10,29 @@
 Assurez-vous d'avoir **Python 3.10 ou plus récent** installé.
 
 #### 👉 Pour installer Python :
-1. Faites **Win + X** puis choisissez **Windows PowerShell (admin)**.
+1. Faites **Win + X** puis sélectionnez **Terminal (admin)**.
 2. Tapez la commande suivante pour télécharger l'installeur officiel :
    ```powershell
    Start-Process "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
    ```
-3. Pendant l'installation, cochez ✅ **"Add Python to PATH"**.
+3. Pendant l'installation, cochez ✅ **"Add Python to PATH"** avant de cliquer sur "Install Now".
 
 ---
 
-### 📦 2. Installer les dépendances
-Dans PowerShell ou Terminal, allez dans le dossier contenant ce projet, puis exécutez :
+### 📦 2. Installer les dépendances nécessaires
+
+#### 📁 Étape A : Accédez au dossier contenant le fichier
+1. Téléchargez le fichier `declarateur-d-impot-3000.py` sur votre ordinateur.
+2. Cliquez avec le **bouton droit** sur le dossier contenant ce fichier et sélectionnez **"Copier comme chemin d’accès"**.
+3. Ouvrez le Terminal (Win + X > Terminal (administrateur)).
+4. Tapez `cd ` (avec un espace) puis **collez le chemin** copié :
+   ```bash
+   cd "C:\Users\votre_nom\Téléchargements\declarateur-d-impot-3000.py"
+   ```
+
+#### 🧱 Étape B : Installer les modules Python requis
+
+Dans ce même terminal, tapez :
 
 ```bash
 pip install streamlit pandas
@@ -29,13 +41,14 @@ pip install streamlit pandas
 ---
 
 ### ▶️ 3. Lancer l'application
-Toujours dans le dossier du script, exécutez :
+
+Toujours dans le même terminal, lancez l'application avec :
 
 ```bash
 streamlit run declarateur-d-impot-3000.py
 ```
 
-Cela ouvrira l'application dans votre navigateur.
+Cela ouvrira automatiquement l’application dans votre navigateur (par défaut à l’adresse `http://localhost:8501`).
 
 ---
 
@@ -49,8 +62,8 @@ Tout reste **sur votre ordinateur**.
 ## ✨ Fonctionnalités
 
 - Upload CSV (Bitpanda ou autre)
-- Calcul FIFO des plus-values
-- Simulation fiscale avec barème progressif personnalisable
+- Calcul FIFO des plus-values et formulaire 2086 - 3N
+- Simulation fiscale avec barème progressif modifiable depuis l'interface
 - Export CSV au format français
 - Code source consultable via un onglet dédié dans l’interface
 
@@ -61,4 +74,3 @@ Tout reste **sur votre ordinateur**.
 Projet open source – librement modifiable, redistribuable et utilisable.
 
 ---
-
