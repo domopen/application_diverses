@@ -1,6 +1,6 @@
 # 📊 Declarateur d'impôt 3000
 
-> Application locale pour calculer vos plus-values crypto en méthode FIFO et estimer l'impôt associé via un barème progressif.
+> Application locale pour calculer vos plus-values crypto en méthode FIFO + 2086 3N et estimer l'impôt associé via le barème de l'impôt progressif.
 
 ---
 
