@@ -10,7 +10,7 @@ Dépôt officiel domOpen
 
 ---
 
-Tests et retours uniquement avec :
+Tester et approuver pour :
    
    1. Formulaires et codes :
       - Formulaire 2086 3N
