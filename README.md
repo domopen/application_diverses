@@ -23,7 +23,6 @@ Dépôt officiel domOpen lab
 
 <details closed>
 <<summary>Installation sous Windows 10-11</summary>
-### 🚀 Lancer l’application DI-3000 sous Windows
 
 #### 🧰 1. Prérequis
 
