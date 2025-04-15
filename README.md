@@ -1,6 +1,25 @@
 # 📊 Declarateur d'impôt 3000
 
-> Application locale pour calculer vos plus-values crypto en méthode FIFO + 2086 3N et estimer l'impôt associé via le barème de l'impôt progressif.
+> Application locale pour calculer vos plus-values crypto en méthode FIFO et estimer l'impôt associé via un barème progressif.
+
+---
+
+## 📊 DI-3000
+
+**DI-3000** est l’interface utilisateur de cette application.
+
+Elle permet à toute personne, même sans compétence technique, de :
+
+- Charger un fichier CSV d’exchange crypto (Bitpanda, Binance, etc.).
+- Appliquer automatiquement la méthode FIFO sur les ventes.
+- Calculer la plus-value nette pour chaque transaction.
+- Obtenir un résumé fiscal selon le modèle 2086 – ligne 3N.
+- Estimer l’impôt total à payer via un barème progressif.
+- Exporter les résultats au format CSV.
+- Modifier le barème depuis l’interface si besoin.
+- Comprendre l’algorithme via l’onglet **Code source** intégré.
+
+L’application est entièrement **locale, anonyme et sécurisée**.
 
 ---
 
