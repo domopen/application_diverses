@@ -16,7 +16,7 @@ Tester et approuver pour :
       - Formulaire 2086 3N
    
    2. CSV de plateformes :
-      - Bitpanda
+      - Bitpanda (FR)
 
 ---
 
