@@ -6,7 +6,7 @@ Dépôt officiel domOpen lab
 
 <details closed>
 
-<summary>📊 DI-3000 — Déclarer vos plus-values crypto selon le barème de l'impôt</summary>
+<summary>📊 DIC-3000 — Déclarer vos plus-values crypto selon le barème de l'impôt</summary>
 
 ---
 
@@ -20,13 +20,16 @@ Testé pour :
 
 ---
 
-**DI-3000** est une interface locale pour :
+**DIC-3000** est une interface locale pour :
 
-- 📥 Charger un fichier CSV
+- 📥 Charger un fichier CSV issu d'une plateforme d'échange cryptos
 - 🔁 Appliquer la méthode **FIFO** pour les ventes de crypto
-- 🧾 Générer automatiquement les lignes fiscales requises à la délcaration
+- 🧾 Générer automatiquement les lignes fiscales requises à la déclaration
 - 📊 Simuler votre impôt via un **barème progressif modifiable**
 - 📤 Exporter les résultats au format **CSV français**
+- Prochainement : 
+   - + de formulaires et codes couramment utilisés (flat taxe, IFI, frais réels, etc)
+   - version web via https://dic3000.hettbtc.com
 
 ---
 
