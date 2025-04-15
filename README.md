@@ -24,7 +24,7 @@ Dépôt officiel domOpen lab
 <details closed>
 <summary>Installation sous Windows 10-11</summary>
 
-#### 🧰 1. Prérequis
+#### 🧰 1. Avoir d'installé Python 3.10+
 
 1. Appuyez sur **Win + X** et choisissez **Terminal (administrateur)**.
 2. Tapez cette commande pour télécharger et installer Python :
@@ -40,7 +40,7 @@ Pendant l'installation, cochez ✅ **"Add Python to PATH"**
 
 - Cliquez avec le **bouton droit** sur le dossier contenant `declarateur-d-impot-3000.py`  
 - Choisissez **"Copier comme chemin d’accès"**
-- Ouvrez le **Terminal (administrateur)**, puis tapez :
+- Ouvrez le **Terminal (administrateur)**, tapez cd suivi d'un espace et collez votre chemin:
 
 ```bash
 cd "C:\Users\votre_nom\Chemin\vers\le\dossier"
@@ -50,6 +50,8 @@ cd "C:\Users\votre_nom\Chemin\vers\le\dossier"
 
 #### 📦 3. Installer les dépendances
 
+- Dans la même fenêtre copier puis coller la commande suivante : 
+
 ```bash
 pip install streamlit pandas
 ```
@@ -57,6 +59,8 @@ pip install streamlit pandas
 ---
 
 #### ▶️ 4. Lancer l’application
+
+- Et toujours dans la même fenêtre copier puis coller la commande suivante :
 
 ```bash
 streamlit run declarateur-d-impot-3000.py
