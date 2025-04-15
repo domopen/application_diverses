@@ -3,10 +3,10 @@ import streamlit as st
 from datetime import datetime
 from io import StringIO
 
-tab1, tab2 = st.tabs(["di-3000", "Code source"])
+tab1, tab2 = st.tabs(["DI-3000", "Pour les curieux"])
 
 with tab1:
-    st.title("di-3000")
+    st.title("DI-3000")
 
     uploaded_file = st.file_uploader("Étape 1 — Dépose ton fichier CSV", type=["csv"])
 
@@ -61,7 +61,7 @@ with tab1:
         total_sold_btc = sum(s['amount'] for s in sales)
         total_sold_eur = sum(s['value_total'] for s in sales)
 
-        st.subheader("🔢 Totaux globaux")
+        st.subheader("🔢 ToTaux globaux")
         st.markdown(f"- **BTC achetés** : {total_bought_btc:.8f}")
         st.markdown(f"- **BTC vendus** : {total_sold_btc:.8f}")
         st.markdown(f"- **Montant total investi (€)** : {total_bought_eur:.2f} €")
@@ -121,18 +121,18 @@ with tab1:
         st.markdown(f"- **Prix moyen du BTC lors des ventes** : {prix_moyen_vente:.2f} €")
         st.markdown(f"- **Gain brut** : {gain_brut_total:.2f} €")
     
-        st.subheader("📊 Barème progressif personnalisé")
+        st.subheader("📊 Barème progressif personnalisé (barème 2025)")
         # Saisie des autres revenus (ex. salaire)
         autres_revenus = st.number_input("Autres revenus imposables (ex : salaires)", min_value=0, value=21000)
         deductions_niches = st.number_input("Déductions et niches fiscales (ex : frais kilométriques)", min_value=0, value=8000)
 
         # Barème standard personnalisable
         default_bareme = [
-            {"plafond": 11497, "taux": 0},
-            {"plafond": 29315, "taux": 11},
-            {"plafond": 83823, "taux": 30},
-            {"plafond": 180294, "taux": 41},
-            {"plafond": float("inf"), "taux": 45}
+            {"Plafond": 11497, "Taux": 0},
+            {"Plafond": 29315, "Taux": 11},
+            {"Plafond": 83823, "Taux": 30},
+            {"Plafond": 180294, "Taux": 41},
+            {"Plafond": float("inf"), "Taux": 45}
         ]
 
         bareme = st.data_editor(
@@ -145,30 +145,30 @@ with tab1:
         def calcul_impot_progressif(gain, autres_revenus, deductions_niches, bareme):
             impots = 0.0
             revenu_total = gain + autres_revenus - deductions_niches
-            precedent_plafond = 0.0
+            precedent_Plafond = 0.0
             reste = revenu_total
-            taux_marginal = 0.0
+            Taux_marginal = 0.0
 
             for tranche in bareme:
-                plafond = float(tranche['plafond'])
-                taux = float(tranche['taux']) / 100
-                if revenu_total > precedent_plafond:
-                    taxable = min(plafond - precedent_plafond, reste)
-                    impots += taxable * taux
+                Plafond = float(tranche['Plafond'])
+                Taux = float(tranche['Taux']) / 100
+                if revenu_total > precedent_Plafond:
+                    taxable = min(Plafond - precedent_Plafond, reste)
+                    impots += taxable * Taux
                     reste -= taxable
-                    precedent_plafond = plafond
-                    taux_marginal = taux  # on garde le dernier taux appliqué
+                    precedent_Plafond = Plafond
+                    Taux_marginal = Taux
                 if reste <= 0:
                     break
 
             proportion_crypto = gain / revenu_total if revenu_total > 0 else 0
             impot_crypto = impots * proportion_crypto
 
-            return impot_crypto, impots, taux_marginal * 100
+            return impot_crypto, impots, Taux_marginal * 100
 
-        impot_crypto, montant_impot_progressif, taux_marginal = calcul_impot_progressif(plus_value_imposable, autres_revenus, deductions_niches, bareme)
+        impot_crypto, montant_impot_progressif, Taux_marginal = calcul_impot_progressif(plus_value_imposable, autres_revenus, deductions_niches, bareme)
 
-        st.markdown(f"- **Taux marginal d’imposition atteint** : {taux_marginal:.1f} %")
+        st.markdown(f"- **Taux marginal d’imposition atteint** : {Taux_marginal:.1f} %")
         st.markdown(f"- **Impôt total estimé (tous revenus)** : {montant_impot_progressif:.2f} €")
 
         # Export CSV avec format français
@@ -191,20 +191,9 @@ with tab2:
     st.title("Code source")
 
     st.markdown("""
-    ### 🔍 Le projet : `declarateur-d-impot-3000`
-
-    Bienvenue dans les entrailles du calculateur.  
-    Ce projet est open source et conçu pour fonctionner en local, sans transfert de données.
-
-    - **Technos utilisées** : Python, Pandas, Streamlit.
-    - **Méthode de calcul** : FIFO (First In, First Out) + Formulaire 2086.
-    - **Fonctions principales** :
-        - Lecture et filtrage des transactions crypto.
-        - Appariement automatique des ventes aux achats les plus anciens.
-        - Simulation d’imposition selon le barème français.
     
-    📂 Le dépôt complet sera bientôt disponible ici :
-    👉 [https://github.com/domopen/application_diverses.git](https://github.com/domopen/application_diverses.git)
+    📂 Le dépôt est disponible ici :
+    👉 [https://github.com/domopen/application_diverses](https://github.com/domopen/application_diverses)
 
     Tu peux utiliser, modifier et redistribuer ce code à ta guise, dans le respect de la licence associée.
     """)
