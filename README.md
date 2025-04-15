@@ -58,10 +58,10 @@ streamlit run declarateur-d-impot-3000.py
 
 Cela ouvre automatiquement une page dans votre navigateur à l’adresse `http://localhost:8501`.
 
-</details>
-
 ---
 
 ## 📜 Licence
 
-Projet open source — librement modifiable, redistribuable et utilisable.
+Projets open source — librement modifiable, redistribuable et utilisable.
+
+</details>
