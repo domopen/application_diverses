@@ -27,7 +27,7 @@ Assurez-vous d'avoir **Python 3.10 ou plus récent** installé.
 3. Ouvrez le Terminal (Win + X > Terminal (administrateur)).
 4. Tapez `cd ` (avec un espace) puis **collez le chemin** copié :
    ```bash
-   cd "C:\Users\votre_nom\Téléchargements\declarateur-d-impot-3000.py"
+   cd "C:\Users\votre_nom\Exemple\De\Chemin"
    ```
 
 #### 🧱 Étape B : Installer les modules Python requis
