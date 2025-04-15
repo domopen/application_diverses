@@ -30,10 +30,10 @@ Tests et retours uniquement avec :
 
 ---
 
-- Prochains ajouts : 
+Les prochains ajouts : 
    
    - version web
-   - flat taxe, IFI, frais réels, etc... (développement de la section **"Déductions et niches fiscales"**)
+   - flat taxe, IFI, frais réels, etc... (développement et optimisation de **"Déductions et niches fiscales"**)
    - correction et ajustements de l'estimation du montant total à payer
 
 
