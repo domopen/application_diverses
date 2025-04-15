@@ -10,12 +10,14 @@ Dépôt officiel domOpen lab
 
 ---
 
-- Testé avec : 
+Testé pour :
+   
    - Formulaires et codes :
-      - Formulaire 2086 3N
-
+      1. Formulaire 2086 3N
+   
    - CSV de plateformes :
-      - Bitpanda
+      1. Bitpanda
+
 ---
 
 **DI-3000** est une interface locale pour :
