@@ -27,7 +27,7 @@ Dépôt officiel domOpen lab
 #### 🧰 1. Prérequis
 
 1. Appuyez sur **Win + X** et choisissez **Terminal (administrateur)**.
-2. Tapez cette commande pour télécharger Python :
+2. Tapez cette commande pour télécharger et installer Python :
    ```powershell
    Start-Process "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe"
    ```
