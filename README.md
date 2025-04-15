@@ -10,21 +10,21 @@ Dépôt officiel domOpen lab
 
 ---
 
-**DI-3000** est une interface locale pour :
-
 - Testé avec : 
    - Formulaires et codes :
       - Formulaire 2086 3N
 
    - CSV de plateformes :
       - Bitpanda
+---
 
-- 📥 Charger un fichier CSV (testé avec : bitpanda)
+**DI-3000** est une interface locale pour :
+
+- 📥 Charger un fichier CSV
 - 🔁 Appliquer la méthode **FIFO** pour les ventes de crypto
-- 🧾 Générer automatiquement les lignes fiscales du **formulaire 2086 (3N)**
+- 🧾 Générer automatiquement les lignes fiscales requises à la délcaration
 - 📊 Simuler votre impôt via un **barème progressif modifiable**
 - 📤 Exporter les résultats au format **CSV français**
-- 👨‍💻 Accéder au **code source** depuis l’interface
 
 ---
 
