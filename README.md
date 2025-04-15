@@ -6,7 +6,7 @@ Dépôt officiel domOpen lab
 
 <details closed>
 
-<summary>📊 DI-3000 — Déclarer vos plus-value crypto selon le barème de l'impôt (Formulaire 2086 - 3N)</summary>
+<summary>📊 DI-3000 — Déclarer vos plus-values crypto selon le barème de l'impôt (Formulaire 2086 - 3N)</summary>
 
 ---
 
