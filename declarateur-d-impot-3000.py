@@ -121,7 +121,7 @@ with tab1:
         st.markdown(f"- **Prix moyen du BTC lors des ventes** : {prix_moyen_vente:.2f} €")
         st.markdown(f"- **Gain brut** : {gain_brut_total:.2f} €")
     
-        st.subheader("📊 Barème progressif personnalisé (barème 2025)")
+        st.subheader("📊 Barème progressif personnalisable (ex : barème 2025)")
         # Saisie des autres revenus (ex. salaire)
         autres_revenus = st.number_input("Autres revenus imposables (ex : salaires)", min_value=0, value=21000)
         deductions_niches = st.number_input("Déductions et niches fiscales (ex : frais kilométriques)", min_value=0, value=8000)
@@ -191,6 +191,19 @@ with tab2:
     st.title("Code source")
 
     st.markdown("""
+    ### 🔍 Le projet : `Le Déclarateur d'Impôt 3000`
+
+    Bienvenue dans les entrailles du DI-3000.  
+    Ce projet est open source et conçu pour fonctionner en local, sans transfert de données.
+                
+    N'hésites pas à proposer des pistes d'améliorations!
+
+    - **Technos utilisées** : Python, Pandas, Streamlit.
+    - **Méthode de calcul** : FIFO (First In, First Out) + Formulaire 2086.
+    - **Fonctions principales** :
+        - Lecture et filtrage des transactions crypto en .csv.
+        - Appariement automatique des ventes aux achats les plus anciens (FIFO proof).
+        - Simulation d’imposition selon le barème français.
     
     📂 Le dépôt est disponible ici :
     👉 [https://github.com/domopen/application_diverses](https://github.com/domopen/application_diverses)
