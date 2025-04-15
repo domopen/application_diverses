@@ -28,7 +28,7 @@ Testé pour :
 - 📊 Simuler votre impôt via un **barème progressif modifiable**
 - 📤 Exporter les résultats au format **CSV français**
 - Prochainement : 
-   - + de formulaires et codes couramment utilisés (flat taxe, IFI, frais réels, etc)
+   - (+) de formulaires et codes couramment utilisés (flat taxe, IFI, frais réels, etc)
    - version web via https://dic3000.hettbtc.com
 
 ---
