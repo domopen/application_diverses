@@ -12,11 +12,11 @@ Dépôt officiel domOpen lab
 
 Testé pour :
    
-   - Formulaires et codes :
-1. Formulaire 2086 3N
+   1. Formulaires et codes :
+      - Formulaire 2086 3N
    
-   - CSV de plateformes :
-1. Bitpanda
+   1. CSV de plateformes :
+      - Bitpanda
 
 ---
 
