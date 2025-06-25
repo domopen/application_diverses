@@ -19,7 +19,7 @@ with tab1:
                 skip = i
                 break
 
-        # Lecture robuste du CSV
+        # Lecture du CSV
         df = pd.read_csv(StringIO('\n'.join(raw_lines[skip:])))
 
         # Nettoyage et conversions de colonnes
